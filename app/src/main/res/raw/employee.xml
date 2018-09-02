@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<class>
+    <employee>
+        <name>Somnath Zalte</name>
+        <designation>Full Stack Developer</designation>
+        <experience>3.6</experience>
+    </employee>
+
+    <employee>
+        <name>Dipak Dhamne</name>
+        <designation>Jr. Android Developer</designation>
+        <experience>2</experience>
+    </employee>
+    <employee>
+        <name>Prakash Bochare</name>
+        <designation>PHP Developer</designation>
+        <experience>2.6</experience>
+    </employee>
+    <employee>
+        <name>Pitesh Bhole</name>
+        <designation>Web Developer</designation>
+        <experience>2.6</experience>
+    </employee>
+    <employee>
+        <name>Rohit Sonawane</name>
+        <designation>Ios Developer</designation>
+        <experience>2.6</experience>
+    </employee>
+</class>
