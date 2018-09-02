@@ -12,7 +12,12 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
+import org.xmlpull.v1.XmlPullParser;
+import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.XmlPullParserFactory;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -31,9 +36,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initVar();
-        new DownloadXML().execute(URL);
+        //FOR API
+        //new DownloadXML().execute(URL);
 
-        /*InputStream stream = this.getResources().openRawResource(R.raw.employee);
+        
+        InputStream stream = this.getResources().openRawResource(R.raw.employee);
 
         try{
             XmlPullParserFactory xmlPullParserFactory = XmlPullParserFactory.newInstance();
@@ -70,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }/**/
+        }
     }
 
     public void initVar(){
